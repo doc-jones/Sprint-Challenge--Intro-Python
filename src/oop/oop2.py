@@ -24,7 +24,6 @@ class GroundVehicle():
 class Motorcycle(GroundVehicle):
     def __inti__(self):
         super().__init__(num_wheels=2)
-        self.num_wheels = num_wheels
 
     def drive(self):
         return('BRAAAP!!')
