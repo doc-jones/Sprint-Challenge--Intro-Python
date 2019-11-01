@@ -38,9 +38,9 @@ def cityreader(cities=[]):
     for line in reader:
       name = line[0]
       lat = float(line[3])
-      long = float(line[4])
+      lon = float(line[4])
 
-      cities.append(City(name, lat, long))
+      cities.append(City(name, lat, lon))
     
     return cities
 
