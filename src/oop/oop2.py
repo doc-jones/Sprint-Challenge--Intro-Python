@@ -22,12 +22,11 @@ class GroundVehicle():
 
 # TODO
 class Motorcycle(GroundVehicle):
-    def __inti__(self):
-        super().__init__(num_wheels=2)
+    def __init__(self):
+        super().__init__(2)
 
     def drive(self):
-        return('BRAAAP!!')
-
+        return("BRAAAP!!")
 
 vehicles = [
     GroundVehicle(),
