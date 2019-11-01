@@ -2,14 +2,14 @@
 # fields for name, lat and lon (representing latitude and longitude).
 import csv
 
-class City;
+class City:
   def __init__(self, name, lat, long):
     self.name = name
     self.lat = lat
     self.long = long
 
   def __repr__(self):
-    return f"{self.name}, {self.lat}, {self.long}
+    return f"{self.name}, {self.lat}, {self.long}"
 
 # We have a collection of US cities with population over 750,000 stored in the
 # file "cities.csv". (CSV stands for "comma-separated values".)
