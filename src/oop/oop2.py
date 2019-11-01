@@ -23,10 +23,11 @@ class GroundVehicle():
 # TODO
 class Motorcycle(GroundVehicle):
     def __inti__(self):
-        super().__init__(2)
+        super().__init__(num_wheels=2)
+        self.num_wheels = num_wheels
 
     def drive(self):
-        print('BRAAAP!!')
+        return('BRAAAP!!')
 
 
 vehicles = [
@@ -40,5 +41,5 @@ vehicles = [
 # Go through the vehicles list and print the result of calling drive() on each.
 
 # TODO
-for sound in vehicles:
-    print(sound.drive())
+for s in vehicles:
+    print(s.drive())
