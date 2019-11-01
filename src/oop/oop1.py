@@ -39,3 +39,5 @@ class Car(GroundVehicle):
 
 class Motorcycle(GroundVehicle):
     pass
+
+# all tests pass
